@@ -1,0 +1,61 @@
+/* Add maven for code font (keep other xaringan defaults */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+body {
+ font-family: 'Verdana', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;  
+
+  /*text-align: justify;*/
+  text-justify: inter-word;
+  line-height: 120%;
+}
+h1, h2, h3, h4 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  line-height: 100%;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+
+}
+
+h1{
+  margin-top: -20px;
+  text-align: center;
+  /*padding-left: 150px;*/
+}
+
+h2{
+  padding-top: 250px;
+  text-align: center;
+  padding-left: 150px;
+}
+
+h3{
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 150px;
+}
+
+h4{
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 150px;
+}
+
+p {
+    line-height: 160%;
+    text-color: white;
+    font-size: 26px;
+}
+
+li {
+    /*line-height: 160%;
+    margin-top: -20px;*/
+    text-color: white;
+    font-size: 18px;
+}
+.remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
+.remark-code-line-highlighted     { background-color: #ffff88; }
